@@ -1,5 +1,6 @@
 ﻿using Cafeteria.COMMON.Entidades;
 using Cafeteria.COMMON.Interfaces;
+using Cafeteria.DAL;
 using MongoDB.Bson;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Text;
 
 namespace Cafeteria.BIZ
 {
-   public class UsuarioManager : Usuario
+   public class UsuarioManager : IUsuario
     {
         //Inyección de dependencias
         IRepository<Usuario> repository;

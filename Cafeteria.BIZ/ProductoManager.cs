@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Cafeteria.BIZ
 {
-    class ProductoManager
+    public class ProductoManager
     {
     }
 }

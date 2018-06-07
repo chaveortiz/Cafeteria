@@ -5,12 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Git-Windows-Minimal" Version="2.17.1.2" />
-    <PackageReference Include="GitHub" Version="1.12.0" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Cafeteria.COMMON\Cafeteria.COMMON.csproj" />
+    <ProjectReference Include="..\Cafeteria.DAL\Cafeteria.DAL.csproj" />
   </ItemGroup>
 
 </Project>
